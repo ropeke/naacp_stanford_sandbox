@@ -1,7 +1,7 @@
 document.getElementById("criminal-justice").onclick = function() {CriminalJustice() };
 document.getElementById("health").onclick = function() {Health() };
 document.getElementById("education").onclick = function() {Education() };
-document.getElementById("political-action").onclick = function() {PoliticalAction() };
+//document.getElementById("political-action").onclick = function() {PoliticalAction() };
 document.getElementById("international-affairs").onclick = function() {InternationalAffairs() };
 document.getElementById("environmental-justice").onclick = function() {EnvironmentalJustice() };
 
@@ -35,10 +35,10 @@ function PoliticalAction() {
 
 function InternationalAffairs() {
 	document.getElementById("about-us-topic-header").innerHTML = "International Affairs";
-	document.getElementById("about-us-details").innerHTML = "Coming Soon...";
+	document.getElementById("about-us-details").innerHTML = "The International Affairs Committee of the Stanford NAACP seeks to critically engage the Stanford and surrounding communities around issues of inequality and injustice globally. The International Affairs committee is deeply involved in the Stanford Out of Occupied Palestine campaign this most recent school year and has previously been involved in events ranging from cultural appreciation to human trafficking.";
 }
 
 function EnvironmentalJustice() {
 	document.getElementById("about-us-topic-header").innerHTML = "Environmental Justice";
-	document.getElementById("about-us-details").innerHTML = "Coming Soon...";
+	document.getElementById("about-us-details").innerHTML = "The Environmental Justice Committee of the Stanford NAACP works at the intersection of social justice and environmentalism. The environmental justice movement, as whole, seeks to ensure that the both the benefits and burdens of our environment is distributed equally among all people. Today, people of color as a whole tend to bear a disproportionate burden of toxic waste, air pollution, and agricultural chemicals and have less access to fresh healthy food, air, water and open spaces. The EJ committee addresses these issues by spreading awareness on campus, supporting local EJ movements and educating students about sustainability.";
 }
